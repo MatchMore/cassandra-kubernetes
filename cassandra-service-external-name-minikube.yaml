@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: cassandra
+  # namespace: prod
+spec:
+  type: ExternalName
+  externalName: cassandra.nirvana.ch
+  ports:
+  - port: 9042
