@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: cassandra-external
+  name: cassandra
   # namespace: prod
 spec:
   type: ExternalName
